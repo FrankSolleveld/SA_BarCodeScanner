@@ -15,7 +15,7 @@ struct BarCodeScannerView: View {
                     .frame(maxWidth: .infinity, maxHeight: 300)
 					.padding(.top, 20)
 				Spacer()
-					.frame(height: 100)
+					.frame(height: 70)
 				Label("Scanned Barcode", systemImage: "barcode.viewfinder")
                     .font(.title)
                     .padding(.bottom, 20)
